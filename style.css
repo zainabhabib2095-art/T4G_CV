@@ -1,0 +1,12 @@
+.logo img{
+    /* border-image: round; */
+    border-radius: 50%;
+    /* border: 2px solid black; */
+    
+}
+.name{
+    background-color: lightgray;
+}
+.logo{
+    display: flex;
+}
