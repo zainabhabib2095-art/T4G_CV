@@ -1,12 +1,101 @@
+/* general page styling */
 .logo img{
     /* border-image: round; */
     border-radius: 50%;
     /* border: 2px solid black; */
-    
+
 }
 .name{
-    background-color: lightgray;
+    background-color: lightgray; 
+    margin: 0;
+    font-size: 28px;
+    color: #333;
+    
 }
 .logo{
+    
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
     display: flex;
+}
+.resume-container{
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0,1);
+}
+.text{
+    font-weight: bolder;
+     color: #2b2b2b;
+     font-family: georgia;
+}
+.header-2{
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+}
+.header-3{
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+}
+.header-4{
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+}
+.course{
+    font-weight: bold;
+    font-size: 20px;
+    color: blue;
+    font-family: times;
+}
+.skills{
+    font-weight: bold;
+    font-size: 20px;
+    color: blue;
+    font-family: times;
+}
+.familiar{
+    font-weight: bold;
+    font-size: 20px;
+    color: blue;
+    font-family: times;
+
+}
+.soft-skills{
+    font-weight: bold;
+    font-size: 20px;
+    color: blue;
+    font-family: times;
+}
+.school{
+    font-family: sans-serif;
+}
+.codes{
+    font-family: sans-serif;
+}
+.codes2{
+    font-family: sans-serif;
+}
+.codes3{
+    font-family: sans-serif;
+}
+.highlight{
+    background-color: lightgray; 
+    margin: 0;
+    font-size: 28px;
+    color: #481a3d;
+    font-weight: bold;
+    border-left: 50px lightgray;
+    border-right: 50px lightgray;
+    
+}
+.contact{
+    font-weight: bold;
+    font-family: sans-serif;
 }
